@@ -165,7 +165,12 @@ Repo ID:   rhel-9-for-x86_64-baseos-eus-rpms
 Repo Name: Red Hat Enterprise Linux 9 for x86_64 - BaseOS - Extended Update Support (RPMs)
 Repo URL:  https://cdn.redhat.com/content/eus/rhel9/$releasever/x86_64/baseos/os
 Enabled:   1
-```
+```  
+Enabling the EUS repos will give us access to all EUS errata before and during a particular release (8.0 → 8.6), and
+errata came out after the next minor release (8.7) during the defined minor version’s EUS period.
+
+If we wanted limit the errata to a specific EUS releae we would use the... set commnand..
+
 ## Appendix
 - [Red Hat Enterprise Linux Life Cycle](https://access.redhat.com/support/policy/updates/errata)
 - [Red Hat Enterprise Linux (RHEL) Extended Update Support (EUS) Overview](https://access.redhat.com/articles/rhel-eus)
