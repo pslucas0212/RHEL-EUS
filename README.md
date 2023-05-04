@@ -7,11 +7,12 @@ Some introductory words here. Blah, blah, blah.
 **Red Hat Enterpise Linux Lifecycle**
 | Full Support | Maintenance Support | Extended Lifecycle Support |
 |--------------|---------------------|----------------------------|
+| Applicable to current minor release | Applicable to last minor RHEL release 6.10, 7.9, 8.10, 9.10 | Applicable to last minor RHEL release 6.10, 7.9, 8.10, 9.10 |
 | Included in current subscription | Included in current subscription | Add-on subscription |
 | Red Hat defined Critical & Important security errata | Red Hat defined Critical & Important security errata| Red Hat defined Critical & Important security errata| Urgent & (at Red Hat’s discretion) High priority bug fixes |
 | New & improved hardware enablement and software functionality – at Red Hat’s discretion. | New hardware enablement and software functionality are not planned | New hardware enablement and software functionality are not planned |
 | New installation media | No new installation media | No new installation media | 
-| Applicable to current minor release | Applicable to last minor RHEL release 6.10, 7.9, 8.10, 9.10 | Applicable to last minor RHEL release 6.10, 7.9, 8.10, 9.10 |
+
 
 **Extended Update Support**  
 Extended Update Support (EUS) is included with a RHEL Premium support subscription or can be purchased as an add-on subscription to a RHEL Standard support subscription.
@@ -25,7 +26,8 @@ Starting with RHEL 8, even numbered minor releases are eligible for EUS.
 
 | Extended Update Support Summary |
 |-------------------------|
-| Extends minor release support to 24 months total support |
+| Applicable to even numbered minor releases starting with RHEL 8.2 and RHEL 9.0 |
+| Extends minor release support to 24 months of support |
 | Available with a RHEL Premium Support subscription or an EUS add-on subscription |
 | Only Critical and Important impact security updates and urgent-priority bug fixes. At Red Hat’s discretion. |
 | Limited, new features or hardware enablement may be added to the EUS maintenance streams. |
