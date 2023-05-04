@@ -68,7 +68,8 @@ Content Access Mode is set to Simple Content Access. This host has access to con
 
 System Purpose Status: Disabled
 ```
-Let's see what repos are enabled on our systems.
+Let's see what repos are enabled on our systems.  
+
 **RHEL 8**
 ```
 $ sudo subscription-manager repos --list-enabled
