@@ -110,7 +110,7 @@ Repo URL:  https://cdn.redhat.com/content/dist/rhel9/$releasever/x86_64/appstrea
            m/os
 Enabled:   1
 ```
-The rhel-8-for-x86_64-appstream-rpms and rhel-8-for-x86_64-baseos-rpms repos are the `master branch`.  They have all the RPMs that will bring you up to the latest minor version.  In this example, RHEL 8.7 and then some for RHEL 8,  and RHEL 9.1 for RHEL 9.
+The rhel-8-for-x86_64-appstream-rpms and rhel-8-for-x86_64-baseos-rpms repos are from the `master branch`.  They have all the RPMs that will bring you up to the latest minor version.  In this example, RHEL 8.7 for RHEL 8, and RHEL 9.1 for RHEL 9.
 
 
 
