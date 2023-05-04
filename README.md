@@ -7,7 +7,7 @@ Red Hat Enterprise Linux subscriptions include an industry leading 10 year suppo
 
 During the full support lifecycle a new minor release of RHEL occurs aproximately every six months.  If you do not have a Premium support subscription or the Extended Update Support (EUS) add-on subscription, you will need to update your RHEL instance with each minor release to receive efficient support from Red Hat.
 
-In this tutorial we will briefly review Red Hat's Red Hat Entperise Linux (RHEL) support lifecycle and learn about Extended Update Support (EUS) for RHEL).  We look at the  options for managing the repos assoiciated with EUS that best meet your business needs. 
+In this tutorial we will briefly review Red Hat's Red Hat Entperise Linux (RHEL) support lifecycle and learn about Extended Update Support (EUS) for RHEL.  We will look at the  options for managing the repos assoiciated with EUS that best meet your business needs. 
 
 EUS allows you to stay on a minor release for and additonal 18 months beyond the end of support for the point release.  With EUS you would have 24 months of support for a minor release of RHEL.
 
@@ -26,7 +26,7 @@ EUS allows you to stay on a minor release for and additonal 18 months beyond the
 **Extended Update Support**  
 Extended Update Support (EUS) is included with a RHEL Premium support subscription or can be purchased as an add-on subscription to a RHEL Standard support subscription.  
 
-Starting with RHEL 8, even numbered minor releases are eligible for EUS.
+Starting with RHEL 8.2 and RHEL 9.0, even numbered minor releases are eligible for EUS.
 
 | Extended Update Support Summary |
 |-------------------------|
@@ -40,7 +40,7 @@ Starting with RHEL 8, even numbered minor releases are eligible for EUS.
 
 
 ## Setup for this Tutorial
-For this article we will be using two virtual machines running Red Hat Enterprise Linux 8.6 and Red Hat Enterprise Linux 9.0 to demonstrate the enablement of EUS on a RHEL instance.  Simple Content Access is enabled on the Red Hat account associated with these Red Hat Enterprise Linux (RHEL) instances.
+For this article we will be using two virtual machines running Red Hat Enterprise Linux 8.6 and Red Hat Enterprise Linux 9.0 to demonstrate the enablement of EUS repos on a RHEL instance.  Simple Content Access is enabled on the Red Hat account associated with these Red Hat Enterprise Linux (RHEL) instances.
 
 Make sure your system is registered with the Red Hat customer portal before starting the tutorial. For this tutorial I use an activation key to register my RHEL instances.  I set my activation key to consume 1 Red Hat Enterprise Linux Server with Smart Management, Premium (Physical or Virtual Nodes) subscription.  For more information on SCA or activation keys, see the appendix for additional articles.
 
@@ -210,7 +210,7 @@ Release set to: 9.0
 Setting the release will limit EUS errata to through the minor release for which EUS is enabled.
 
 ### Summary
-Red Hat provides you with a variety support options for your Red Hat Enterprise Linux instance so you can choose the support options that best suite your particular business needs.  Extended Up
+Red Hat provides you with a variety support options for your Red Hat Enterprise Linux instance so you can choose the support options that best suite your particular business needs.  In this tutorial we briefly reviewed RHEL support options include Extended Update Support.  Extended Update Support provides another support option designed to best meet your specifice business requirements.
 
 
 ## Appendix
