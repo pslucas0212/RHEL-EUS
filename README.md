@@ -3,6 +3,7 @@
 ### Introduction
 
 | Red Hat Enterpise Linux Lifecycle |
+|-----------------------------------|
 | Full Support | Maintenance Support | Extended Lifecycle Support |
 |--------------|---------------------|----------------------------|
 | Included in current subscription | Included in current subscription | Add-on subscription |
