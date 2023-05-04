@@ -23,6 +23,15 @@ EUS allows you to stay on a minor release for and additonal 18 months beyond the
 
 Starting with RHEL 8, even numbered minor releases are eligible for EUS.
 
+| Extended Update Support Summary |
+|-------------------------|
+| Extends minor release support to 24 months total support |
+| Available with a RHEL Premium Support subscription or an EUS add-on subscription |
+| Only Critical and Important impact security updates and urgent-priority bug fixes. At Red Hat’s discretion. |
+| Limited, new features or hardware enablement may be added to the EUS maintenance streams. |
+
+
+
 
 ## Setup
 For this article we will be using two virtual machines running Red Hat Enterprise Linux 8.6 and Red Hat Enterprise Linux 9.0.  Simple Content Access is enabled on the Red Hat account associated with these Red Hat Enterprise Linux (RHEL) instances.
