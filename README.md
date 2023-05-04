@@ -56,6 +56,20 @@ The system has been registered with ID: 7a5b0af5-d1c7-48ae-b5b6-cad1b4a1ee13
 The registered system name is: eus090.example.com
 ```
 
+Let's check the system status
+```
+$ sudo subscription-manager status
+[sudo] password for pslucas: 
++-------------------------------------------+
+   System Status Details
++-------------------------------------------+
+Overall Status: Disabled
+Content Access Mode is set to Simple Content Access. This host has access to content, regardless of subscription status.
+
+System Purpose Status: Disabled
+```
+
+
 ## Appendix
 - [Red Hat Enterprise Linux Life Cycle](https://access.redhat.com/support/policy/updates/errata)
 - [Red Hat Enterprise Linux (RHEL) Extended Update Support (EUS) Overview](https://access.redhat.com/articles/rhel-eus)
