@@ -114,3 +114,5 @@ The rhel-8-for-x86_64-appstream-rpms and rhel-8-for-x86_64-baseos-rpms repos are
 ## Appendix
 - [Red Hat Enterprise Linux Life Cycle](https://access.redhat.com/support/policy/updates/errata)
 - [Red Hat Enterprise Linux (RHEL) Extended Update Support (EUS) Overview](https://access.redhat.com/articles/rhel-eus)
+- [How to register and subscribe a RHEL system to the Red Hat Customer Portal using Red Hat Subscription-Manager?](https://access.redhat.com/solutions/253273)
+- [Enabling Simple Content Access and registering to Red Hat Insights with Subscription Manager](https://www.redhat.com/en/blog/enabling-simple-content-access-and-registering-red-hat-insights-subscription-manager)
