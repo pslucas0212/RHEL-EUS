@@ -39,7 +39,7 @@ Starting with RHEL 8, even numbered minor releases are eligible for EUS.
 
 
 
-## Setup
+## Setup for this Tutorial
 For this article we will be using two virtual machines running Red Hat Enterprise Linux 8.6 and Red Hat Enterprise Linux 9.0 to demonstrate the enablement of EUS on a RHEL instance.  Simple Content Access is enabled on the Red Hat account associated with these Red Hat Enterprise Linux (RHEL) instances.
 
 Make sure your system is registered with the Red Hat customer portal before starting the tutorial. For this tutorial I use an activation key to register my RHEL instances.  I set my activation key to consume 1 Red Hat Enterprise Linux Server with Smart Management, Premium (Physical or Virtual Nodes) subscription.  For more information on SCA or activation keys, see the appendix for additional articles.
