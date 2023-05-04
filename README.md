@@ -21,7 +21,7 @@ In this tutorial we look at the various options for managing the repos assoiciat
 
 
 **Extended Update Support**  
-Extended Update Support (EUS) is included with a RHEL Premium support subscription or can be purchased as an add-on subscription to a RHEL Standard support subscription.
+Extended Update Support (EUS) is included with a RHEL Premium support subscription or can be purchased as an add-on subscription to a RHEL Standard support subscription.  
 
 Starting with RHEL 8, even numbered minor releases are eligible for EUS.
 
@@ -40,6 +40,8 @@ Starting with RHEL 8, even numbered minor releases are eligible for EUS.
 For this article we will be using two virtual machines running Red Hat Enterprise Linux 8.6 and Red Hat Enterprise Linux 9.0.  Simple Content Access is enabled on the Red Hat account associated with these Red Hat Enterprise Linux (RHEL) instances.
 
 Make sure your system is registered with the customer portal for this example I use an activation key to register my RHEL instances.  I set my activation key to consume 1 Red Hat Enterprise Linux Server with Smart Management, Premium (Physical or Virtual Nodes) subscription.  For more information on SCA or activation keys, see the appendix for additional articles.
+
+Where it makes sense, you will see separate examples for RHEL 8 and RHEL 9.  
 
 **RHEL 8**
 ```
