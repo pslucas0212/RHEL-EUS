@@ -2,7 +2,13 @@
 By Paul Lucas and Bernie Hoefer. 
 ## Introduction
 
-Some introductory words here. Blah, blah, blah.  
+Red Hat Enterprise Linux subscriptions include an industry leading 10 year support lifecycle.  If need you can extend the life of your Red Hat Enterprise Linux instance for additional two years with an Extended Lifecycle Support (ELS) add-on subscription.  
+
+During the full support lifecycle a new minor release of RHEL occurs aproximately every six months.  If you do not have a Premium support subscription or the Extended Update Support (EUS) add-on subscription, you will need to update your RHEL instance with each minor release to receive support from Red Hat.
+
+EUS allows you to stay on a minor release for and additonal 18 months beyond the end of support for the point release.  Typically you would have 24 months of support for a minor release of RHEL.
+
+In this tutorial we look at the various options for managing the repos assoiciated with EUS.
 
 **Red Hat Enterpise Linux Lifecycle**
 | Full Support | Maintenance Support | Extended Lifecycle Support |
@@ -16,11 +22,6 @@ Some introductory words here. Blah, blah, blah.
 
 **Extended Update Support**  
 Extended Update Support (EUS) is included with a RHEL Premium support subscription or can be purchased as an add-on subscription to a RHEL Standard support subscription.
-
-
-During the full support lifecycle a new minor release of RHEL occurs aproximately every six months.  If you do not have a Premium support subscription or the Extended Update Support (EUS) add-on subscription, you will need to update your RHEL instance with each minor release to receive support from Red Hat.
-
-EUS allows you to stay on a minor release for and additonal 18 months beyond the end of support for the point release.  Typically you would have 24 months of support for a minor release of RHEL.
 
 Starting with RHEL 8, even numbered minor releases are eligible for EUS.
 
@@ -38,7 +39,7 @@ Starting with RHEL 8, even numbered minor releases are eligible for EUS.
 ## Setup
 For this article we will be using two virtual machines running Red Hat Enterprise Linux 8.6 and Red Hat Enterprise Linux 9.0.  Simple Content Access is enabled on the Red Hat account associated with these Red Hat Enterprise Linux (RHEL) instances.
 
-Make sure your system is registered with the customer portal for this example I use an activation key to register my RHEL instances.  I set my activation key to consume 1 Red Hat Enterprise Linux Server with Smart Management, Premium (Physical or Virtual Nodes) subscription.
+Make sure your system is registered with the customer portal for this example I use an activation key to register my RHEL instances.  I set my activation key to consume 1 Red Hat Enterprise Linux Server with Smart Management, Premium (Physical or Virtual Nodes) subscription.  For more information on SCA or activation keys, see the appendix for additional articles.
 
 **RHEL 8**
 ```
