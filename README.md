@@ -1,14 +1,17 @@
 # Red Hat Enterprise Linux and Extended Update Support
-By Paul Lucas and Bernie Hoefer. 
+By Paul Lucas and Bernie Hoefer.  
+
 ## Introduction
 
-Red Hat Enterprise Linux subscriptions include an industry leading 10 year support lifecycle.  If need you can extend the life of your Red Hat Enterprise Linux instance for additional two years with an Extended Lifecycle Support (ELS) add-on subscription.  
+In this tutorial we will learn about Extended Update Support (EUS) for Red Hat Entperise Linux (RHEL).  We look at the various options for managing the repos assoiciated with EUS.  
+
+Red Hat Enterprise Linux subscriptions include an industry leading 10 year support lifecycle.  At the end of the 10 year lifecyle you can extend the life of your Red Hat Enterprise Linux instance for an additional two years with an Extended Lifecycle Support (ELS) add-on subscription.  
 
 During the full support lifecycle a new minor release of RHEL occurs aproximately every six months.  If you do not have a Premium support subscription or the Extended Update Support (EUS) add-on subscription, you will need to update your RHEL instance with each minor release to receive support from Red Hat.
 
 EUS allows you to stay on a minor release for and additonal 18 months beyond the end of support for the point release.  Typically you would have 24 months of support for a minor release of RHEL.
 
-In this tutorial we look at the various options for managing the repos assoiciated with EUS.
+
 
 **Red Hat Enterpise Linux Lifecycle**
 | Full Support | Maintenance Support | Extended Lifecycle Support |
