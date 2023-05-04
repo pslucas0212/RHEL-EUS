@@ -167,9 +167,9 @@ Repo URL:  https://cdn.redhat.com/content/eus/rhel9/$releasever/x86_64/baseos/os
 Enabled:   1
 ```  
 Enabling the EUS repos will give us access to all EUS errata before and during a particular release (8.0 → 8.6), and
-errata that comes out after the next minor release (8.7) during the defined minor version’s EUS period.
+errata that comes out after the next minor release (8.7) during the defined minor version’s EUS period.  With out setting a specific release are not limiting the errata to 8.6 updates only.
 
-If we wanted limit the errata to a specific EUS releae we would use the release --set option with the subscription-manager.  
+If we wanted to limit the errata to a specific EUS releae we would use the release --set option with the subscription-manager.  
 
 **RHEL 8** subscription-manager release
 ```
@@ -207,7 +207,7 @@ $ sudo subscription-manager release --set=9.0
 Release set to: 9.0
 ```  
 
-Setting the release will limit EUS errata to through the minor release for which EUS is enabled.
+Setting the release will limit EUS errata through the minor release for which EUS is enabled.
 
 ### Summary
 Red Hat provides you with a variety support options for your Red Hat Enterprise Linux instance so you can choose the support options that best suite your particular business needs.  In this tutorial we briefly reviewed RHEL support options include Extended Update Support.  Extended Update Support provides another support option designed to best meet your specifice business requirements.
