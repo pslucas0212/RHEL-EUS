@@ -5,7 +5,7 @@
 Some introductory words here. Blah, blah, blah.  
 
 ### **Red Hat Enterpise Linux Lifecycle**
-| | Full Support | Maintenance Support | Extended Lifecycle Support |
+| - | Full Support | Maintenance Support | Extended Lifecycle Support |
 | Something here ||--------------|---------------------|----------------------------|
 | Subscription || Included in current subscription | Included in current subscription | Add-on subscription |
 |Security Errata | | Red Hat defined Critical & Important security errata. | Red Hat defined Critical & Important security errata.| Red Hat defined Critical & Important security errata.|
