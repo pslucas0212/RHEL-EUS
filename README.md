@@ -1,5 +1,5 @@
 # Red Hat Enterprise Linux and Extended Update Support
-
+By Paul Lucas and Bernie Hoefer. 
 ## Introduction
 
 Some introductory words here. Blah, blah, blah.  
