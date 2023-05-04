@@ -8,10 +8,12 @@ Some introductory words here. Blah, blah, blah.
 | Full Support | Maintenance Support | Extended Lifecycle Support |
 |--------------|---------------------|----------------------------|
 | Included in current subscription | Included in current subscription | Add-on subscription |
-| Red Hat defined Critical & Important security errata. | Red Hat defined Critical & Important security errata.| Red Hat defined Critical & Important security errata.| Urgent & (at Red Hat’s discretion) High priority bug fixes. |
-| New & improved hardware enablement and software functionality – at Red Hat’s discretion. | New hardware enablement and software functionality are not planned. | New hardware enablement and software functionality are not planned. |
-| New installation media. | No new installation media. | No new installation media. | 
-| Current minor release | Applicable to last minor RHEL release (6.10, 7.9, 8.10, 9.10 | Applicable to last minor RHEL release (6.10, 7.9, 8.10, 9.10 |
+| Red Hat defined Critical & Important security errata | Red Hat defined Critical & Important security errata| Red Hat defined Critical & Important security errata| Urgent & (at Red Hat’s discretion) High priority bug fixes |
+| New & improved hardware enablement and software functionality – at Red Hat’s discretion. | New hardware enablement and software functionality are not planned | New hardware enablement and software functionality are not planned |
+| New installation media | No new installation media | No new installation media | 
+| Applicable to current minor release | Applicable to last minor RHEL release 6.10, 7.9, 8.10, 9.10 | Applicable to last minor RHEL release 6.10, 7.9, 8.10, 9.10 |
+
+During the full support lifecycle a new minor release of RHEL occurs aproximately every six months.  If you do not have a Premium support subscription or the Extended Update Support (EUS) add-on subscription, you will need to update your RHEL instance with each minor release to receive support from Red Hat.
 
 
 
