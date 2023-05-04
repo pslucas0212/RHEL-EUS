@@ -119,7 +119,12 @@ For RHEL 8 the rhel-9-for-x86_64-appstream-rpms and rhel-9-for-x86_64-baseos-rpm
 
 Let's enable the EUS repositories for RHEL 8 and 9.  We can find the repository names here [How to Access EUS](https://access.redhat.com/articles/rhel-eus#c5).  
 
-
+**RHEL 8** enable EUS repos
+```
+$ sudo subscription-manager repos --enable=rhel-8-for-x86_64-appstream-eus-rpms --enable=rhel-8-for-x86_64-baseos-eus-rpms
+Repository 'rhel-8-for-x86_64-appstream-eus-rpms' is enabled for this system.
+Repository 'rhel-8-for-x86_64-baseos-eus-rpms' is enabled for this system.
+```
 
 ## Appendix
 - [Red Hat Enterprise Linux Life Cycle](https://access.redhat.com/support/policy/updates/errata)
