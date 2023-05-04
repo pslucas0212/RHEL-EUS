@@ -13,8 +13,15 @@ Some introductory words here. Blah, blah, blah.
 | New installation media | No new installation media | No new installation media | 
 | Applicable to current minor release | Applicable to last minor RHEL release 6.10, 7.9, 8.10, 9.10 | Applicable to last minor RHEL release 6.10, 7.9, 8.10, 9.10 |
 
+**Extended Update Support**  
+Extended Update Support (EUS) is included with a RHEL Premium support subscription or can be purchased as an add-on subscription to a RHEL Standard support subscription.
+
+
 During the full support lifecycle a new minor release of RHEL occurs aproximately every six months.  If you do not have a Premium support subscription or the Extended Update Support (EUS) add-on subscription, you will need to update your RHEL instance with each minor release to receive support from Red Hat.
 
+EUS allows you to stay on a minor release for and additonal 18 months beyond the end of support for the point release.  Typically you would have 24 months of support for a minor release of RHEL.
+
+Starting with RHEL 8, even numbered minor releases are eligible for EUS.
 
 
 ## Setup
