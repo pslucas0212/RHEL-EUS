@@ -5,10 +5,10 @@
 Some introductory words here. Blah, blah, blah.  
 
 ### **Red Hat Enterpise Linux Lifecycle**
-| Feature | Full Support | Maintenance Support | Extended Lifecycle Support |
-| Something here |--------------|---------------------|----------------------------|
-| Subscription | Included in current subscription | Included in current subscription | Add-on subscription |
-|Security Errata | Red Hat defined Critical & Important security errata. | Red Hat defined Critical & Important security errata.| Red Hat defined Critical & Important security errata.| Urgent & (at Red Hat’s discretion) High priority bug fixes. |
+| Full Support | Maintenance Support | Extended Lifecycle Support |
+|--------------|---------------------|----------------------------|
+| Included in current subscription | Included in current subscription | Add-on subscription |
+| Red Hat defined Critical & Important security errata. | Red Hat defined Critical & Important security errata.| Red Hat defined Critical & Important security errata.| Urgent & (at Red Hat’s discretion) High priority bug fixes. |
 
 ## Setup
 For this article we will be using two virtual machines running Red Hat Enterprise Linux 8.6 and Red Hat Enterprise Linux 9.0.  Simple Content Access is enabled on the Red Hat account associated with these Red Hat Enterprise Linux (RHEL) instances.
