@@ -49,7 +49,12 @@ The registered system name is: eus086.example.com
 ```
 
 **RHEL 9**
-
+```
+$ sudo subscription-manager register --org=xxxxxxxxx --activationkey=your_key_here
+[sudo] password for pslucas: 
+The system has been registered with ID: 7a5b0af5-d1c7-48ae-b5b6-cad1b4a1ee13
+The registered system name is: eus090.example.com
+```
 
 ## Appendix
 - [Red Hat Enterprise Linux Life Cycle](https://access.redhat.com/support/policy/updates/errata)
