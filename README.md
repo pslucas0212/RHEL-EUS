@@ -169,7 +169,46 @@ Enabled:   1
 Enabling the EUS repos will give us access to all EUS errata before and during a particular release (8.0 → 8.6), and
 errata came out after the next minor release (8.7) during the defined minor version’s EUS period.
 
-If we wanted limit the errata to a specific EUS releae we would use the... set commnand..
+If we wanted limit the errata to a specific EUS releae we would use the release --set option with the subscription-manager.  
+
+**RHEL 8**  
+```
+$ sudo subscription-manager release --show
+Release not set
+$ sudo subscription-manager release --list
++-------------------------------------------+
+          Available Releases
++-------------------------------------------+
+8
+8.0
+8.1
+8.2
+8.3
+8.4
+8.5
+8.6
+8.7
+$ sudo subscription-manager release --set=8.6
+Release set to: 8.6
+```  
+
+**RHEL 9**  
+```
+$ sudo subscription-manager release --show
+Release not set
+$ sudo subscription-manager release --list
++-------------------------------------------+
+          Available Releases       
++-------------------------------------------+
+9
+9.0
+9.1
+$ sudo subscription-manager release --set=9.0
+Release set to: 9.0
+```  
+
+Setting the release will limit EUS errata through the minor release for which EUS is enabled.
+
 
 ## Appendix
 - [Red Hat Enterprise Linux Life Cycle](https://access.redhat.com/support/policy/updates/errata)
