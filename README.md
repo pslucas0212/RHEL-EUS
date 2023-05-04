@@ -38,7 +38,8 @@ Starting with RHEL 8, even numbered minor releases are eligible for EUS.
 ## Setup
 For this article we will be using two virtual machines running Red Hat Enterprise Linux 8.6 and Red Hat Enterprise Linux 9.0.  Simple Content Access is enabled on the Red Hat account associated with these Red Hat Enterprise Linux (RHEL) instances.
 
-Make sure your system is registered with the customer portal for this example I use an activation key to register my RHEL instances.
+Make sure your system is registered with the customer portal for this example I use an activation key to register my RHEL instances.  
+
 **RHEL 8**
 ```
 $ sudo subscription-manager register --org=xxxxxxxxx --activationkey=your_key_here
