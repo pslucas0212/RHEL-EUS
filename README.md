@@ -2,6 +2,8 @@
 
 ## Introduction
 
+Some introductory words here. Blah, blah, blah.  
+
 ### **Red Hat Enterpise Linux Lifecycle**
 | Full Support | Maintenance Support | Extended Lifecycle Support |
 |--------------|---------------------|----------------------------|
