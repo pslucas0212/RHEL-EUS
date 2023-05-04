@@ -119,13 +119,53 @@ For RHEL 8 the rhel-9-for-x86_64-appstream-rpms and rhel-9-for-x86_64-baseos-rpm
 
 Let's enable the EUS repositories for RHEL 8 and 9.  We can find the repository names here [How to Access EUS](https://access.redhat.com/articles/rhel-eus#c5).  
 
-**RHEL 8** enable EUS repos
+**RHEL 8** enable EUS repos. 
 ```
+$ sudo subscription-manager repos --disable=rhel-8-for-x86_64-appstream-rpms --disable=rhel-8-for-x86_64-baseos-rpms
+Repository 'rhel-8-for-x86_64-appstream-rpms' is disabled for this system.
+Repository 'rhel-8-for-x86_64-baseos-rpms' is disabled for this system.
 $ sudo subscription-manager repos --enable=rhel-8-for-x86_64-appstream-eus-rpms --enable=rhel-8-for-x86_64-baseos-eus-rpms
 Repository 'rhel-8-for-x86_64-appstream-eus-rpms' is enabled for this system.
 Repository 'rhel-8-for-x86_64-baseos-eus-rpms' is enabled for this system.
-```
+$ sudo subscription-manager repos --list-enabled
++----------------------------------------------------------+
+    Available Repositories in /etc/yum.repos.d/redhat.repo
++----------------------------------------------------------+
+Repo ID:   rhel-8-for-x86_64-baseos-eus-rpms
+Repo Name: Red Hat Enterprise Linux 8 for x86_64 - BaseOS - Extended Update Support (RPMs)
+Repo URL:  https://cdn.redhat.com/content/eus/rhel8/$releasever/x86_64/baseos/os
+Enabled:   1
 
+Repo ID:   rhel-8-for-x86_64-appstream-eus-rpms
+Repo Name: Red Hat Enterprise Linux 8 for x86_64 - AppStream - Extended Update Support
+           (RPMs)
+Repo URL:  https://cdn.redhat.com/content/eus/rhel8/$releasever/x86_64/appstream/os
+Enabled:   1
+```  
+
+**RHEL 9** enable EUS repos. 
+```
+$ sudo subscription-manager repos --disable=rhel-9-for-x86_64-appstream-rpms --disable=rhel-9-for-x86_64-baseos-rpms
+Repository 'rhel-9-for-x86_64-appstream-rpms' is disabled for this system.
+Repository 'rhel-9-for-x86_64-baseos-rpms' is disabled for this system.
+$ sudo subscription-manager repos --enable=rhel-9-for-x86_64-appstream-eus-rpms --enable=rhel-9-for-x86_64-baseos-eus-rpms
+Repository 'rhel-9-for-x86_64-appstream-eus-rpms' is enabled for this system.
+Repository 'rhel-9-for-x86_64-baseos-eus-rpms' is enabled for this system.
+$ sudo subscription-manager repos --list-enabled
++----------------------------------------------------------+
+    Available Repositories in /etc/yum.repos.d/redhat.repo
++----------------------------------------------------------+
+Repo ID:   rhel-9-for-x86_64-appstream-eus-rpms
+Repo Name: Red Hat Enterprise Linux 9 for x86_64 - AppStream - Extended Update Support
+           (RPMs)
+Repo URL:  https://cdn.redhat.com/content/eus/rhel9/$releasever/x86_64/appstream/os
+Enabled:   1
+
+Repo ID:   rhel-9-for-x86_64-baseos-eus-rpms
+Repo Name: Red Hat Enterprise Linux 9 for x86_64 - BaseOS - Extended Update Support (RPMs)
+Repo URL:  https://cdn.redhat.com/content/eus/rhel9/$releasever/x86_64/baseos/os
+Enabled:   1
+```
 ## Appendix
 - [Red Hat Enterprise Linux Life Cycle](https://access.redhat.com/support/policy/updates/errata)
 - [Red Hat Enterprise Linux (RHEL) Extended Update Support (EUS) Overview](https://access.redhat.com/articles/rhel-eus)
