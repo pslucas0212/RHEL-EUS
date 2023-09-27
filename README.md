@@ -9,13 +9,12 @@ During the full support lifecycle a new minor release of RHEL occurs aproximatel
 
 In this tutorial we will briefly review Red Hat's Red Hat Entperise Linux (RHEL) support lifecycle and learn about Extended Update Support (EUS) for RHEL.  We will look at the  options for managing the repos assoiciated with EUS that best meet your business needs. 
 
+Extended Update Support (EUS) is included with a RHEL 8 and 9 Premium support subscription or can be purchased as an add-on subscription to a RHEL 8 and 9 Standard support subscription. 
+
 EUS allows you to stay on a minor release for and additonal 18 months beyond the end of support for the point release.  With EUS you would have 24 months of support for a minor release of RHEL.
 
 Starting with RHEL 9 you have the option to purchse a new EUS add-on subscription, called Enhanced Extened Update Support) for both standard and premium support RHEL offerings that will extend EUS to 48 months of support for a minor relese of RHEL 9.  More information on Enhanced EUS can be found via the article links in the Appendix section below.
 
-
-**Extended Update Support**  
-Extended Update Support (EUS) is included with a RHEL Premium support subscription or can be purchased as an add-on subscription to a RHEL Standard support subscription.  
 
 Starting with RHEL 8.2 and RHEL 9.0, even numbered minor releases are eligible for EUS.
 
