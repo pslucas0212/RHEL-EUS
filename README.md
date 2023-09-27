@@ -3,7 +3,7 @@ By Paul Lucas and Bernie Hoefer.
 
 ## Introduction
 
-Red Hat Enterprise Linux subscriptions include an industry leading 10 year support lifecycle.  Red Hat provides additional support options so that you can choose the option that best fits your business requirements.  For example, at the end of the 10 year lifecyle you can extend the life of your Red Hat Enterprise Linux instance for an additional two years with an Extended Lifecycle Support (ELS) add-on subscription.  
+Red Hat Enterprise Linux subscriptions include an industry leading 10 year support lifecycle.  Red Hat provides additional support options so that you can choose the option that best fits your business requirements.  For example, at the end of the 10 year lifecyle you can extend the life of your Red Hat Enterprise Linux instance for an additional four years with an Extended Lifecycle Support (ELS) add-on subscription when ELS becomes availabe for RHEL 7 (see appendix below).  
 
 During the full support lifecycle a new minor release of RHEL occurs aproximately every six months.  If you do not have a Premium support subscription or the Extended Update Support (EUS) add-on subscription, you will need to update your RHEL instance with each minor release to receive efficient support from Red Hat.
 
@@ -12,15 +12,6 @@ In this tutorial we will briefly review Red Hat's Red Hat Entperise Linux (RHEL)
 EUS allows you to stay on a minor release for and additonal 18 months beyond the end of support for the point release.  With EUS you would have 24 months of support for a minor release of RHEL.
 
 
-
-**Red Hat Enterpise Linux Lifecycle support definitions**
-| Full Support | Maintenance Support | Extended Lifecycle Support |
-|--------------|---------------------|----------------------------|
-| Applicable to current minor release | Applicable to last minor RHEL release 6.10, 7.9, 8.10, 9.10 | Applicable to last minor RHEL release 6.10, 7.9, 8.10, 9.10 |
-| Included in current subscription | Included in current subscription | Add-on subscription |
-| Red Hat defined Critical & Important security errata | Red Hat defined Critical & Important security errata| Red Hat defined Critical & Important security errata| Urgent & (at Red Hat’s discretion) High priority bug fixes |
-| New & improved hardware enablement and software functionality – at Red Hat’s discretion. | New hardware enablement and software functionality are not planned | New hardware enablement and software functionality are not planned |
-| New installation media | No new installation media | No new installation media | 
 
 
 **Extended Update Support**  
@@ -218,3 +209,17 @@ Red Hat provides you with a variety support options for your Red Hat Enterprise 
 - [Red Hat Enterprise Linux (RHEL) Extended Update Support (EUS) Overview](https://access.redhat.com/articles/rhel-eus)
 - [How to register and subscribe a RHEL system to the Red Hat Customer Portal using Red Hat Subscription-Manager?](https://access.redhat.com/solutions/253273)
 - [Enabling Simple Content Access and registering to Red Hat Insights with Subscription Manager](https://www.redhat.com/en/blog/enabling-simple-content-access-and-registering-red-hat-insights-subscription-manager)
+- [Announcing up to 4 years of Extended Life Cycle Support (ELS) for Red Hat Enterprise Linux 7](https://www.redhat.com/en/blog/announcing-4-years-extended-life-cycle-support-els-red-hat-enterprise-linux-7)
+
+
+## RHEL Lifecycle Table
+
+
+**Red Hat Enterpise Linux Lifecycle support definitions**
+| Full Support | Maintenance Support | Extended Lifecycle Support |
+|--------------|---------------------|----------------------------|
+| Applicable to current minor release | Applicable to last minor RHEL release 6.10, 7.9, 8.10, 9.10 | Applicable to last minor RHEL release 6.10, 7.9, 8.10, 9.10 |
+| Included in current subscription | Included in current subscription | Add-on subscription |
+| Red Hat defined Critical & Important security errata | Red Hat defined Critical & Important security errata| Red Hat defined Critical & Important security errata| Urgent & (at Red Hat’s discretion) High priority bug fixes |
+| New & improved hardware enablement and software functionality – at Red Hat’s discretion. | New hardware enablement and software functionality are not planned | New hardware enablement and software functionality are not planned |
+| New installation media | No new installation media | No new installation media | 
