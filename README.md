@@ -11,7 +11,7 @@ In this tutorial we will briefly review Red Hat's Red Hat Entperise Linux (RHEL)
 
 EUS allows you to stay on a minor release for and additonal 18 months beyond the end of support for the point release.  With EUS you would have 24 months of support for a minor release of RHEL.
 
-
+Starting with RHEL 9 you have the option to purchse a new EUS add-on subscription, called Enhanced Extened Update Support) for both standard and premium support RHEL offerings that will extend EUS to 48 months of support for a minor relese of RHEL 9.  More information on Enhanced EUS can be found via the article links in the Appendix section below.
 
 
 **Extended Update Support**  
@@ -29,9 +29,8 @@ Starting with RHEL 8.2 and RHEL 9.0, even numbered minor releases are eligible f
 
 
 
-
 ## Setup for this Tutorial
-For this article we will be using two virtual machines running Red Hat Enterprise Linux 8.6 and Red Hat Enterprise Linux 9.0 to demonstrate the enablement of EUS repos on a RHEL instance.  Simple Content Access is enabled on the Red Hat account associated with these Red Hat Enterprise Linux (RHEL) instances.
+For this article we will be using two virtual machines running Red Hat Enterprise Linux 8.8 and Red Hat Enterprise Linux 9.2 to demonstrate the enablement of EUS repos on a RHEL instance.  Simple Content Access is enabled on the Red Hat account associated with these Red Hat Enterprise Linux (RHEL) instances.
 
 Make sure your system is registered with the Red Hat customer portal before starting the tutorial. For this tutorial I use an activation key to register my RHEL instances.  I set my activation key to consume 1 Red Hat Enterprise Linux Server with Smart Management, Premium (Physical or Virtual Nodes) subscription.  For more information on SCA or activation keys, see the appendix for additional articles.
 
