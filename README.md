@@ -207,6 +207,8 @@ Red Hat provides you with a variety support options for your Red Hat Enterprise 
 ## Appendix
 - [Red Hat Enterprise Linux Life Cycle](https://access.redhat.com/support/policy/updates/errata)
 - [Red Hat Enterprise Linux (RHEL) Extended Update Support (EUS) Overview](https://access.redhat.com/articles/rhel-eus)
+- [Red Hat Enterprise Linux 9 Extended Update Support (EUS) and Enhanced Extended Update Support (Enhanced EUS) FAQ](https://access.redhat.com/articles/rhel9-eus-faq#p_enhacedeus)
+- [How to Subscribe to Enhanced Extended Update Support for Red Hat Enterprise Linux on RHEL 9](https://access.redhat.com/articles/7028082)
 - [How to register and subscribe a RHEL system to the Red Hat Customer Portal using Red Hat Subscription-Manager?](https://access.redhat.com/solutions/253273)
 - [Enabling Simple Content Access and registering to Red Hat Insights with Subscription Manager](https://www.redhat.com/en/blog/enabling-simple-content-access-and-registering-red-hat-insights-subscription-manager)
 - [Announcing up to 4 years of Extended Life Cycle Support (ELS) for Red Hat Enterprise Linux 7](https://www.redhat.com/en/blog/announcing-4-years-extended-life-cycle-support-els-red-hat-enterprise-linux-7)
