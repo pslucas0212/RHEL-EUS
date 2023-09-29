@@ -37,24 +37,23 @@ Where it makes sense, you will see separate examples for RHEL 8 and RHEL 9.
 
 **RHEL 8** system registraion
 ```
-$ sudo subscription-manager register --org=xxxxxxxxx --activationkey=your_key_here
+$ sudo subscription-manager register --org=xxxxxxxx --activationkey=your_activationkey_here
 [sudo] password for pslucas: 
-The system has been registered with ID: 7a5b0af5-d1c7-48ae-b5b6-cad1b4a1ee13
-The registered system name is: eus086.example.com
+The system has been registered with ID: 1b2d515f-e6fe-45a8-a8cf-9ffaf3839e0c
+The registered system name is: eus88.example.com 
 ```
 
 **RHEL 9** system registration
 ```
-$ sudo subscription-manager register --org=xxxxxxxxx --activationkey=your_key_here
+$ sudo subscription-manager register --org=xxxxxxxx --activationkey=your_activationkey_here
 [sudo] password for pslucas: 
-The system has been registered with ID: 7a5b0af5-d1c7-48ae-b5b6-cad1b4a1ee13
-The registered system name is: eus090.example.com
+The system has been registered with ID: a9eb6fc7-a04a-408c-beff-33deb66c6820
+The registered system name is: eus92.example.com
 ```
 
 Let's check the system status.  We see that Content Access Mode is set Simple Content Access (SCA).  With SCA enabled we only need to enable the instance and we don't need to assign a specific subscription to the instance.
 ```
 $ sudo subscription-manager status
-[sudo] password for pslucas: 
 +-------------------------------------------+
    System Status Details
 +-------------------------------------------+
@@ -73,14 +72,12 @@ $ sudo subscription-manager repos --list-enabled
 +----------------------------------------------------------+
 Repo ID:   rhel-8-for-x86_64-appstream-rpms
 Repo Name: Red Hat Enterprise Linux 8 for x86_64 - AppStream (RPMs)
-Repo URL:  https://cdn.redhat.com/content/dist/rhel8/$releasever/x86_64/appstrea
-           m/os
+Repo URL:  https://cdn.redhat.com/content/dist/rhel8/$releasever/x86_64/appstream/os
 Enabled:   1
 
 Repo ID:   rhel-8-for-x86_64-baseos-rpms
 Repo Name: Red Hat Enterprise Linux 8 for x86_64 - BaseOS (RPMs)
-Repo URL:  https://cdn.redhat.com/content/dist/rhel8/$releasever/x86_64/baseos/o
-           s
+Repo URL:  https://cdn.redhat.com/content/dist/rhel8/$releasever/x86_64/baseos/os
 Enabled:   1
 
 ```
@@ -90,18 +87,17 @@ $ sudo subscription-manager repos --list-enabled
 +----------------------------------------------------------+
     Available Repositories in /etc/yum.repos.d/redhat.repo
 +----------------------------------------------------------+
-Repo ID:   rhel-9-for-x86_64-baseos-rpms
-Repo Name: Red Hat Enterprise Linux 9 for x86_64 - BaseOS (RPMs)
-Repo URL:  https://cdn.redhat.com/content/dist/rhel9/$releasever/x86_64/baseos/o
-           s
-Enabled:   1
-
 Repo ID:   rhel-9-for-x86_64-appstream-rpms
 Repo Name: Red Hat Enterprise Linux 9 for x86_64 - AppStream (RPMs)
-Repo URL:  https://cdn.redhat.com/content/dist/rhel9/$releasever/x86_64/appstrea
-           m/os
+Repo URL:  https://cdn.redhat.com/content/dist/rhel9/$releasever/x86_64/appstream/os
+Enabled:   1
+
+Repo ID:   rhel-9-for-x86_64-baseos-rpms
+Repo Name: Red Hat Enterprise Linux 9 for x86_64 - BaseOS (RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel9/$releasever/x86_64/baseos/os
 Enabled:   1
 ```
+
 For RHEL 8 the rhel-8-for-x86_64-appstream-rpms and rhel-8-for-x86_64-baseos-rpms repos are from the `master branch`.  They have all the RPMs that will bring you up to the latest minor version.  In this example, RHEL 8.7 and then some for RHEL 8.
 
 For RHEL 8 the rhel-9-for-x86_64-appstream-rpms and rhel-9-for-x86_64-baseos-rpms repos are from the `master branch`.  They have all the RPMs that will bring you up to the latest minor version.  In this example, and RHEL 9.1 and then some for RHEL 9.
