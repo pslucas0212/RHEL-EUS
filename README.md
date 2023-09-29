@@ -13,8 +13,7 @@ Extended Update Support (EUS) is included with a RHEL 8 and 9 Premium support su
 
 EUS allows you to stay on a minor release for and additonal 18 months beyond the end of support for the point release.  With EUS you would have 24 months of support for a minor release of RHEL.
 
-Starting with RHEL 9 you have the option to purchase a new EUS add-on subscription called Enhanced Extened Update Support) for both standard and premium support RHEL offerings that will extend EUS to 48 months of support for a minor relese of RHEL 9.  More information on Enhanced EUS can be found via the article links in the Appendix section below.
-
+Starting with RHEL 9 you have the option to purchase a new EUS add-on subscription called Enhanced Extened Update Support for both standard and premium support RHEL offerings that will extend EUS to 48 months of support for a minor relese of RHEL 9.  More information on Enhanced EUS can be found via the article links in the Appendix section below.  
 
 Starting with RHEL 8.2 and RHEL 9.0, even numbered minor releases are eligible for EUS.
 
