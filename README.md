@@ -7,7 +7,7 @@ Red Hat Enterprise Linux subscriptions include an industry leading 10 year suppo
 
 During the full support lifecycle a new minor release of RHEL occurs aproximately every six months.  If you do not have a Premium support subscription or the Extended Update Support (EUS) add-on subscription, you will need to update your RHEL instance with each minor release to receive efficient support from Red Hat.
 
-In this tutorial we will briefly review Red Hat's Red Hat Entperise Linux (RHEL) support lifecycle and learn about Extended Update Support (EUS) for RHEL.  We will look at the  options for managing the repos assoiciated with EUS that best meet your business needs. 
+In this tutorial we will learn about Extended Update Support (EUS) for RHEL.  We will look at the  options for managing the repos assoiciated with EUS that best meet your business needs. 
 
 Extended Update Support (EUS) is included with a RHEL 8 and 9 Premium support subscription or can be purchased as an add-on subscription to a RHEL 8 and 9 Standard support subscription. 
 
