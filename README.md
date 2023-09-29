@@ -27,8 +27,12 @@ Starting with RHEL 8.2 and RHEL 9.0, even numbered minor releases are eligible f
 | Only Critical and Important impact security updates and urgent-priority bug fixes are made available at Red Hat’s discretion. |
 | Limited new features or hardware enablement may be added to the EUS maintenance streams. |
 
-
-
+EUS End Dates for current release of RHEL 8 and 9
+| RHEL 8 EUS | RHEL 9 EUS |
+|------------|-------------|
+| 8.4 (ended May 31, 2023) | - |
+| 8.6 (ends May 31, 2024) | 9.0 (ends May 31, 2024) |
+| 8.8 (ends May 31, 2025) | 9.2 (ends May 31, 2025) |  
 ## Setup for this Tutorial
 For this article we will be using two virtual machines running Red Hat Enterprise Linux 8.8 and Red Hat Enterprise Linux 9.2 to demonstrate the enablement of EUS repos on a RHEL instance.  Simple Content Access (SCA)is enabled on the Red Hat account associated with these Red Hat Enterprise Linux (RHEL) instances.
 
