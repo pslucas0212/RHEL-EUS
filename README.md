@@ -23,7 +23,7 @@ Starting with RHEL 8.2 and RHEL 9.0, even numbered minor releases are eligible f
 | Extends minor release support to 24 months of support |
 | Available with a RHEL Premium Support subscription or an EUS add-on subscription |
 | Only Critical and Important impact security updates and urgent-priority bug fixes are made available at Red Hat’s discretion. |
-| Limited, new features or hardware enablement may be added to the EUS maintenance streams. |
+| Limited new features or hardware enablement may be added to the EUS maintenance streams. |
 
 
 
