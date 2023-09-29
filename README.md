@@ -3,19 +3,19 @@ By Paul Lucas and Bernie Hoefer.
 
 ## Introduction
 
-Red Hat Enterprise Linux subscriptions include an industry leading 10 year support lifecycle.  Red Hat provides additional support options so that you can choose the option that best fits your business requirements.  For example, at the end of the 10 year lifecyle you can extend the life of your Red Hat Enterprise Linux instance for an additional four years with an Extended Lifecycle Support (ELS) add-on subscription when ELS becomes availabe for RHEL 7 (see appendix below).  
+Red Hat Enterprise Linux subscriptions include an industry leading 10 year support lifecycle.  Red Hat provides additional support options so that you can choose the option that best fits your business requirements.  For example, at the end of the 10 year lifecyle you can extend the life of your Red Hat Enterprise Linux instance for an additional four years with an Extended Lifecycle Support (ELS) add-on subscription when ELS becomes available for RHEL 7 (see appendix below).  
 
-During the full support lifecycle, the first 5 years of the RHEL support lifecycle, a new minor release of RHEL occurs aproximately every six months.  If you do not have a Premium support subscription or the Extended Update Support (EUS) add-on subscription, you will need to update your RHEL instance with each minor release to receive efficient support from Red Hat.  
+During the full support lifecycle, the first 5 years of the RHEL support lifecycle, a new minor release of RHEL occurs approximately every six months.  If you do not have a Premium support subscription or the Extended Update Support (EUS) add-on subscription, you will need to update your RHEL instance with each minor release to receive efficient support from Red Hat.  
 
-If you have a business requirement or need to stay on a specific RHEL minor release or your application development lifecycle prevent you from updating RHEL every 6 months, EUS will support your update lifceycle requirements.
+If you have a business requirement or need to stay on a specific RHEL minor release or your application development lifecycle prevents you from updating RHEL every 6 months, EUS will support your update lifceycle requirements.
 
-In this tutorial we will learn about Extended Update Support (EUS) for RHEL.  We will look at the  options for managing the repos assoiciated with EUS that best meet your business needs. 
+In this tutorial we will learn about Extended Update Support (EUS) for RHEL.  We will look at the  options for managing the repos associated with EUS that best meet your business needs. 
 
 Extended Update Support (EUS) is included with a RHEL 8 and 9 Premium support subscription or can be purchased as an add-on subscription to a RHEL 8 and 9 Standard support subscription. 
 
-EUS allows you to stay on a minor release for and additonal 18 months beyond the end of support for the point release.  With EUS you would have 24 months of support for a minor release of RHEL.
+EUS allows you to stay on a minor release for an additioinal 18 months beyond the end of support for the point release.  With EUS you would have 24 months of support for a minor release of RHEL.
 
-Starting with RHEL 9 you have the option to purchase a new EUS add-on subscription called Enhanced Extened Update Support for both standard and premium support RHEL offerings that will extend EUS to 48 months of support for a minor relese of RHEL 9.  More information on Enhanced EUS can be found via the article links in the Appendix section below.  
+Starting with RHEL 9 you have the option to purchase a new EUS add-on subscription called Enhanced Extended Update Support for both standard and premium support RHEL offerings that will extend EUS to 48 months of support for a minor release of RHEL 9.  More information on Enhanced EUS can be found via the article links in the Appendix section below.  
 
 Starting with RHEL 8.2 and RHEL 9.0, even numbered minor releases are eligible for EUS.
 
@@ -39,7 +39,7 @@ Make sure your system is registered with the Red Hat customer portal before star
 
 Where it makes sense, you will see separate examples for RHEL 8 and RHEL 9.  
 
-**RHEL 8** system registraion
+**RHEL 8** system registration
 ```
 $ sudo subscription-manager register --org=xxxxxxxx --activationkey=your_activationkey_here
 [sudo] password for pslucas: 
@@ -55,7 +55,7 @@ The system has been registered with ID: a9eb6fc7-a04a-408c-beff-33deb66c6820
 The registered system name is: eus92.example.com
 ```
 
-Let's check the system status.  We see that Content Access Mode is set Simple Content Access (SCA).  With SCA enabled we only need to enable the instance and we don't need to assign a specific subscription to the instance.
+Let's check the system status.  We see that Content Access Mode is set tSimple Content Access (SCA).  With SCA enabled we only need to enable the instance and we don't need to assign a specific subscription to the instance.
 ```
 $ sudo subscription-manager status
 +-------------------------------------------+
@@ -102,13 +102,13 @@ Repo URL:  https://cdn.redhat.com/content/dist/rhel9/$releasever/x86_64/baseos/o
 Enabled:   1
 ```
 
-For RHEL 8 the rhel-8-for-x86_64-appstream-rpms and rhel-8-for-x86_64-baseos-rpms repos are from the `master branch`.  They have all the RPMs that will bring you up to the latest minor version.  In this example, RHEL 8.8 and then some for RHEL 8.
+For RHEL 8 the rhel-8-for-x86_64-appstream-rpms and rhel-8-for-x86_64-baseos-rpms repos are from the `master branch`.  They have all the RPMs that will bring you up to the latest minor version.  In this example RHEL 8.8 and then some for RHEL 8.
 
-For RHEL 9 the rhel-9-for-x86_64-appstream-rpms and rhel-9-for-x86_64-baseos-rpms repos are from the `master branch`.  They have all the RPMs that will bring you up to the latest minor version.  In this example, and RHEL 9.2 and then some for RHEL 9.
+For RHEL 9 the rhel-9-for-x86_64-appstream-rpms and rhel-9-for-x86_64-baseos-rpms repos are from the `master branch`.  They have all the RPMs that will bring you up to the latest minor version.  In this example RHEL 9.2 and then some for RHEL 9.
 
 Let's enable the EUS repositories for RHEL 8 and 9.  We can find the repository names here [How to Access EUS](https://access.redhat.com/articles/rhel-eus#c5).  
 
-**RHEL 8** enable EUS repos. 
+**RHEL 8** enabled EUS repos. 
 ```
 $ sudo subscription-manager repos --disable=rhel-8-for-x86_64-appstream-rpms --disable=rhel-8-for-x86_64-baseos-rpms
 Repository 'rhel-8-for-x86_64-appstream-rpms' is disabled for this system.
@@ -131,7 +131,7 @@ Repo URL:  https://cdn.redhat.com/content/eus/rhel8/$releasever/x86_64/baseos/os
 Enabled:   1
 ```  
 
-**RHEL 9** enable EUS repos. 
+**RHEL 9** enabled EUS repos. 
 ```
 $ sudo subscription-manager repos --disable=rhel-9-for-x86_64-appstream-rpms --disable=rhel-9-for-x86_64-baseos-rpms
 Repository 'rhel-9-for-x86_64-appstream-rpms' is disabled for this system.
@@ -154,9 +154,9 @@ Repo URL:  https://cdn.redhat.com/content/eus/rhel9/$releasever/x86_64/appstream
 Enabled:   1
 ```  
 Enabling the EUS repos will give us access to all EUS errata before and during a particular release (8.0 → 8.8), and
-errata that comes out after the next minor release (8.9) during the defined minor version’s EUS period.  With out setting a specific release, we are not limiting the errata to 8.8 updates only.
+errata that comes out after the next minor release (8.9) during the defined minor version’s EUS period.  Without setting a specific release, we are not limiting the errata to 8.8 updates only.
 
-If we wanted to limit the errata to a specific EUS releae we would use the release --set option with the subscription-manager.  
+If we wanted to limit the errata to a specific EUS release we would use the release --set option with the subscription-manager.  
 
 **RHEL 8** subscription-manager release
 ```
@@ -196,10 +196,10 @@ $ sudo subscription-manager release --set=9.2
 Release set to: 9.2
 ```  
 
-Setting the release to a specifie RHEL minor release, we will limit EUS errata through the minor release for which EUS is enabled.
+Setting the release to a specific RHEL minor release, we will limit EUS errata through the minor release for which EUS is enabled.
 
 ### Summary
-Red Hat provides you with a variety support options for your Red Hat Enterprise Linux instance so you can choose the support options that best suite your particular business needs.  In this tutorial we briefly reviewed RHEL support options include Extended Update Support.  Extended Update Support provides another support option designed to best meet your specifice business requirements.
+Red Hat provides you with a variety support of options for your Red Hat Enterprise Linux instance so you can choose the support options that best suit your particular business needs.  In this tutorial we briefly reviewed RHEL support options include Extended Update Support.  Extended Update Support provides another support option designed to best meet your specific business requirements.
 
 
 ## Appendix
@@ -215,7 +215,7 @@ Red Hat provides you with a variety support options for your Red Hat Enterprise 
 ## RHEL Lifecycle Table
 
 
-**Red Hat Enterpise Linux Lifecycle support definitions**
+**Red Hat Enterprise Linux Lifecycle support definitions**
 | Full Support | Maintenance Support | Extended Lifecycle Support |
 |--------------|---------------------|----------------------------|
 | Applicable to current minor release | Applicable to last minor RHEL release 6.10, 7.9, 8.10, 9.10 | Applicable to last minor RHEL release 6.10, 7.9, 8.10, 9.10 |
