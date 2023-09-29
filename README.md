@@ -191,7 +191,7 @@ $ sudo subscription-manager release --set=9.2
 Release set to: 9.2
 ```  
 
-Setting the release will limit EUS errata through the minor release for which EUS is enabled.
+Setting the release to a specifie RHEL minor release, we will limit EUS errata through the minor release for which EUS is enabled.
 
 ### Summary
 Red Hat provides you with a variety support options for your Red Hat Enterprise Linux instance so you can choose the support options that best suite your particular business needs.  In this tutorial we briefly reviewed RHEL support options include Extended Update Support.  Extended Update Support provides another support option designed to best meet your specifice business requirements.
