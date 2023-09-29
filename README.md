@@ -149,7 +149,7 @@ Repo URL:  https://cdn.redhat.com/content/eus/rhel9/$releasever/x86_64/appstream
 Enabled:   1
 ```  
 Enabling the EUS repos will give us access to all EUS errata before and during a particular release (8.0 → 8.8), and
-errata that comes out after the next minor release (8.9) during the defined minor version’s EUS period.  With out setting a specific release are not limiting the errata to 8.8 updates only.
+errata that comes out after the next minor release (8.9) during the defined minor version’s EUS period.  With out setting a specific release, we are not limiting the errata to 8.8 updates only.
 
 If we wanted to limit the errata to a specific EUS releae we would use the release --set option with the subscription-manager.  
 
