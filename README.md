@@ -132,26 +132,25 @@ Enabled:   1
 $ sudo subscription-manager repos --disable=rhel-9-for-x86_64-appstream-rpms --disable=rhel-9-for-x86_64-baseos-rpms
 Repository 'rhel-9-for-x86_64-appstream-rpms' is disabled for this system.
 Repository 'rhel-9-for-x86_64-baseos-rpms' is disabled for this system.
-$ sudo subscription-manager repos --enable=rhel-9-for-x86_64-appstream-eus-rpms --enable=rhel-9-for-x86_64-baseos-eus-rpms
+$sudo subscription-manager repos --enable=rhel-9-for-x86_64-appstream-eus-rpms --enable=rhel-9-for-x86_64-baseos-eus-rpms
 Repository 'rhel-9-for-x86_64-appstream-eus-rpms' is enabled for this system.
 Repository 'rhel-9-for-x86_64-baseos-eus-rpms' is enabled for this system.
 $ sudo subscription-manager repos --list-enabled
 +----------------------------------------------------------+
     Available Repositories in /etc/yum.repos.d/redhat.repo
 +----------------------------------------------------------+
-Repo ID:   rhel-9-for-x86_64-appstream-eus-rpms
-Repo Name: Red Hat Enterprise Linux 9 for x86_64 - AppStream - Extended Update Support
-           (RPMs)
-Repo URL:  https://cdn.redhat.com/content/eus/rhel9/$releasever/x86_64/appstream/os
-Enabled:   1
-
 Repo ID:   rhel-9-for-x86_64-baseos-eus-rpms
 Repo Name: Red Hat Enterprise Linux 9 for x86_64 - BaseOS - Extended Update Support (RPMs)
 Repo URL:  https://cdn.redhat.com/content/eus/rhel9/$releasever/x86_64/baseos/os
 Enabled:   1
+
+Repo ID:   rhel-9-for-x86_64-appstream-eus-rpms
+Repo Name: Red Hat Enterprise Linux 9 for x86_64 - AppStream - Extended Update Support (RPMs)
+Repo URL:  https://cdn.redhat.com/content/eus/rhel9/$releasever/x86_64/appstream/os
+Enabled:   1
 ```  
-Enabling the EUS repos will give us access to all EUS errata before and during a particular release (8.0 → 8.6), and
-errata that comes out after the next minor release (8.7) during the defined minor version’s EUS period.  With out setting a specific release are not limiting the errata to 8.6 updates only.
+Enabling the EUS repos will give us access to all EUS errata before and during a particular release (8.0 → 8.8), and
+errata that comes out after the next minor release (8.9) during the defined minor version’s EUS period.  With out setting a specific release are not limiting the errata to 8.8 updates only.
 
 If we wanted to limit the errata to a specific EUS releae we would use the release --set option with the subscription-manager.  
 
@@ -172,8 +171,9 @@ $ sudo subscription-manager release --list
 8.5
 8.6
 8.7
-$ sudo subscription-manager release --set=8.6
-Release set to: 8.6
+8.8
+$ sudo subscription-manager release --set=8.8
+Release set to: 8.8
 ```  
 
 **RHEL 9** subscription-manager release
@@ -187,8 +187,9 @@ $ sudo subscription-manager release --list
 9
 9.0
 9.1
-$ sudo subscription-manager release --set=9.0
-Release set to: 9.0
+9.2
+$ sudo subscription-manager release --set=9.2
+Release set to: 9.2
 ```  
 
 Setting the release will limit EUS errata through the minor release for which EUS is enabled.
